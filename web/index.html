@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张小姐专属追剧网站</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <h1 class="oName">张美玲专属追剧网站</h1>
+    <div class="oAddress">
+        <span class="oPut">请输入地址:</span> 
+        <input class="oText" type="text" name="地址" value="" >
+        <span class="oSearch">搜 索</span>
+    </div>
+    <h2>你是我的荣耀</h2>
+    <h2>超前点播</h2>
+    <div class="oPlay">
+        <div>
+            <span>
+                <a href="javascript:;" onclick="cgx('https://v.qq.com/x/cover/mzc00200xh9313v/k0040bjjgje.html')">21</a>
+            </span>
+        </div>
+        <div>
+            <span>
+                <a href="javascript:;" onclick="cgx('https://v.qq.com/x/cover/mzc00200xh9313v/n0040dvyvo3.html')">22</a>
+            </span>
+        </div>
+        <div>
+            <span>
+                <a href="javascript:;" onclick="cgx('https://v.qq.com/x/cover/mzc00200xh9313v/w0040tt9k1p.html')">23</a>
+            </span>
+        </div>
+        <div>
+            <span>
+                <a href="javascript:;" onclick="cgx('https://v.qq.com/x/cover/mzc00200xh9313v/q0040cl5k0u.html')">24</a>
+            </span>
+        </div>
+        <div>
+            <span>
+                <a href="javascript:;" onclick="cgx('https://v.qq.com/x/cover/mzc00200xh9313v/w004060jxb4.html')">25</a>
+            </span>
+        </div>
+        <div>
+            <span>
+                <a href="javascript:;" onclick="cgx('https://v.qq.com/x/cover/mzc00200xh9313v/d004074khb0.html')">26</a>
+            </span>
+        </div>
+    </div>
+    <div class="floor"></div>
+    <p class="Icp">
+        <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备18014849号</a>
+    </p>
+</body>
+<script>
+    var oUrl = 'https://jx.ppflv.com/?url=';
+    var oInp = document.getElementsByClassName('oText')[0];
+    var oSearch = document.getElementsByClassName('oSearch')[0];
+    oSearch.onclick = function(){
+        if (oInp.value ==''){
+            alert('请输入链接');
+        }else{
+           window.open(oUrl + oInp.value,'_blank')
+        }
+    }
+    function cgx(cgxUrl){
+        // alert('尚未更新，周一20:00更新！！！');
+        window.open(oUrl + cgxUrl,'_blank')
+    }
+</script>
+</html>

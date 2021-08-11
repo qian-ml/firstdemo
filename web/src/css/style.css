@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.root,
+body{
+    background:#16171b;
+}
+
+.oName{
+    text-shadow: -1px -1px 1px #03d8a9;
+    text-shadow: -2px -2px 1px #03d8a9;
+    text-shadow: -3px -3px 1px #03d8a9;
+    text-shadow: -4px -4px 1px #03d8a9;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 1em;
+    margin-top: 20px;
+}
+.oAddress{
+    width: 100%;
+    height: 40px;
+    margin: 30px auto;
+    text-align: center;
+}
+.oPut{
+    color: #ccc;
+    line-height: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-right: 5px;
+}
+.oText{
+    font-size: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: transparent;
+    height: 24px;
+    width: 25%;
+    border-radius: 5px;
+    color: white;
+    vertical-align: 6%;
+}
+.oSearch{
+    font-size: 20px;
+    border: 1px solid #ccc;
+    padding: 2px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: #ccc;
+    letter-spacing: 5px;
+    margin: 20px auto;
+    text-shadow: 1px 1px 1px #ff4572;
+    text-shadow: 2px 2px 1px #ff4572;
+    text-shadow: 3px 3px 1px #ff4572;
+}
+.oPlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -105px;
+    margin-top: -110px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 210px;
+    height: 220px;
+    border: 1px solid #eee;
+}
+.oPlay div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    width: 70px;
+    height: 110px;
+}
+.oPlay div span{
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.oPlay div span a{
+    text-decoration: none;
+    color: #ccc;
+    font-weight: bolder;
+}
+.floor{
+    position: absolute;
+    /*border: 1px solid #ccc;*/
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    opacity: 0.5;
+}
+.Icp{
+    position: absolute;
+    left: 50%;
+    margin-left: -130px;
+    display: inline-block;
+    bottom: 0;
+    height: 50px;
+    line-height: 50px;
+}
+.Icp a{
+    text-decoration: none;
+    color: #ccc;
+    font-size: 28px;
+}
